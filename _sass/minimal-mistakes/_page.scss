@@ -113,7 +113,8 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.9em;
+    line-height: 1.3;
   }
 
   /* paragraph indents */
@@ -127,6 +128,10 @@ body {
         margin-top: -($indent-var);
       }
     }
+  }
+
+  img {
+    margin-bottom: 0.5rem;
   }
 
   a:not(.btn) {
